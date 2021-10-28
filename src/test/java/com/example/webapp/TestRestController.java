@@ -29,7 +29,7 @@ public class TestRestController {
 				.contentType(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk())
 				.andExpect(jsonPath("$")
-				.value("Saluti, sono il tuo primo Docker container!"))
+				.value("Saluti, sono il tuo primo test Jenkins!"))
 				.andDo(print());
 	}
 }
