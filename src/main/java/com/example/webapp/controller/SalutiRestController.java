@@ -12,7 +12,7 @@ public class SalutiRestController {
 	@GetMapping(value = "/test")
 	public String getGreetings() {
 		
-		return "Saluti, sono il tuo primo Docker container!";
+		return "Saluti, sono il tuo primo test Jenkins!";
 	}
 	
 	@GetMapping(value = "/test2")
