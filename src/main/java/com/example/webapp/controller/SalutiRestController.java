@@ -12,7 +12,7 @@ public class SalutiRestController {
 	@GetMapping(value = "/test")
 	public String getGreetings() {
 		
-		return "Oggi è il 29/10/2021.";
+		return "Jenkins it's great!";
 	}
 	
 	@GetMapping(value = "/test2")
