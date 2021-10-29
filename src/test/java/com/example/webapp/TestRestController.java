@@ -29,7 +29,7 @@ public class TestRestController {
 				.contentType(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk())
 				.andExpect(jsonPath("$")
-				.value("Jenkins it's great!"))
+				.value("WOW, Jenkins it's great!"))
 				.andDo(print());
 	}
 }
