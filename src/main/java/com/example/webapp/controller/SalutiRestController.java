@@ -12,7 +12,7 @@ public class SalutiRestController {
 	@GetMapping(value = "/test")
 	public String getGreetings() {
 		
-		return "WOW, Jenkins it's great!";
+		return "FUCK YEAH!!!";
 	}
 	
 	@GetMapping(value = "/test2")
