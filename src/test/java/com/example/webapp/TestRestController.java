@@ -29,7 +29,7 @@ public class TestRestController {
 				.contentType(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk())
 				.andExpect(jsonPath("$")
-				.value("Saluti, sono il tuo primo test Jenkins!"))
+				.value("Oggi è il 29/10/2021."))
 				.andDo(print());
 	}
 }

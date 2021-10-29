@@ -12,7 +12,7 @@ public class SalutiRestController {
 	@GetMapping(value = "/test")
 	public String getGreetings() {
 		
-		return "Saluti, sono il tuo primo test Jenkins!";
+		return "Oggi è il 29/10/2021.";
 	}
 	
 	@GetMapping(value = "/test2")
